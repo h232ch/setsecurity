@@ -17,7 +17,7 @@ cp .env.default .env
 docker-compose up
 ```
 
-## 서비스 동작 확인
+## Usage
 ```bash
 - PcsList : GET <http://localhost:8080/pcs>
 - PcList : GET <http://localhost:8080/pc/{no}
