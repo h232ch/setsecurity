@@ -1,13 +1,5 @@
 # setsecurity
 
-# EatGo
-
-## Test all
-
-```bash
-SPRING_PROFILES_ACTIVE=test ./gradlew cleanTest test
-```
-
 ## Build JAR
 
 ```bash
