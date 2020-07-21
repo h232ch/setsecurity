@@ -2,8 +2,6 @@
 
 # EatGo
 
-[![Build Status]
-
 ## Test all
 
 ```bash
@@ -27,12 +25,14 @@ cp .env.default .env
 docker-compose up
 ```
 
-##서비스 동작 확인
+## 서비스 동작 확인
+```bash
 - PcsList : GET <http://localhost:8080/pcs>
 - PcList : GET <http://localhost:8080/pc/{no}
 - PcStatusAplly : POST <http://localhost:8080/pcs>
   JSON {"ip": "127.0.0.1", "time": "2020/05/11 15:00",
   "status": "CODE_1:True, CODE_2:True, CODE_3:True, CODE_4:True,
   CODE_5:True, CODE_6:True, CODE_7:True, CODE_8:Ture"}
+```
   
-- MacOS Security Setting Script : https://github.com/h232ch/macsecurity
+MacOS Security Setting Script : https://github.com/h232ch/macsecurity
