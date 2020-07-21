@@ -1,21 +1,3 @@
-
-
-spring:
-  datasource:
-    url: jdbc:h2:~/data/eatgo
-  jpa:
-    hibernate:
-      ddl-auto: update
-
----
-
-spring:
-  profiles: test
-  datasource:
-    url: jdbc:h2:mem:test
-
----
-
 spring:
   profiles: mysql
   datasource:
@@ -23,8 +5,6 @@ spring:
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
 
-
-# 로컬DB 사용시
 #spring:
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
