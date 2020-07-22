@@ -26,7 +26,7 @@ docker-compose up
 ## Usage
 ```bash
 - PcsList : GET <http://localhost:8080/pcs>
-- PcList : GET <http://localhost:8080/pc/{no}
+- PcList : GET <http://localhost:8080/pc/{no}>
 - PcStatusApply : POST <http://localhost:8080/pcs>
   JSON {"ip": "127.0.0.1", "time": "2020/05/11 15:00",
   "status": "CODE_1:True, CODE_2:True, CODE_3:True, CODE_4:True,
