@@ -1,6 +1,6 @@
 # setsecurity
 
-## Info
+## Environments
 ```bash
 SpringBoot, MariaDB, Docker
 JPA, Junit4, lombok
