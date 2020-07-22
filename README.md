@@ -1,5 +1,11 @@
 # setsecurity
 
+## Info
+```bash
+SpringBoot, MariaDB, Docker
+JPA, Junit4, lombok
+```
+
 ## Build JAR
 
 ```bash
