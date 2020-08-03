@@ -21,7 +21,7 @@ public class Pc {
 
     private String ip;
     private String time;
-    private String macAddr;
+    private String mac;
     private String status;
 
 //    @Builder
