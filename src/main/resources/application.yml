@@ -5,6 +5,11 @@ spring:
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
 
+#  jpa:
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: create-drop
+
 #spring:
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
