@@ -20,7 +20,6 @@ public class Pc {
     private Long id;
 
     private String ip;
-    private String mac;
     private String time;
     private String status;
 
