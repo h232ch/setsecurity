@@ -17,7 +17,6 @@ JPA, Junit4, lombok
 ```bash
 # Copy a docker environment file (docker-compose.yml)
 # Fix .env file which you want
-cp .env.default .env
 
 # Excute Containers with docker-compose.yml
 docker-compose up
