@@ -20,8 +20,10 @@ public class Pc {
     private Long id;
 
     private String ip;
-    private String time;
     private String mac;
+    private String mac_all;
+    private String hostname;
+    private String time;
     private String status;
 
 //    @Builder

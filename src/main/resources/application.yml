@@ -5,10 +5,10 @@ spring:
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
 
-#  jpa:
-#    generate-ddl: true
-#    hibernate:
-#      ddl-auto: create-drop
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
 
 #spring:
 #  datasource:
