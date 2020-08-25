@@ -34,6 +34,8 @@ public class PcController {
         Pc pc = pcService.addPc(
                 Pc.builder()
                 .ip(resource.getIp())
+                .mac_all(resource.getMac_all())
+                .hostname(resource.getHostname())
                 .mac(resource.getMac())
                 .time(resource.getTime())
                 .status(resource.getStatus())
